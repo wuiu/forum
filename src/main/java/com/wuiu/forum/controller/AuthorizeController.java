@@ -23,7 +23,7 @@ public class AuthorizeController {
 
 
 
-    @GetMapping("/callback")
+    @GetMapping("/githubcallback")
     public String getCode(@RequestParam(name = "code") String code,
                           @RequestParam(name = "code") String state){
 
